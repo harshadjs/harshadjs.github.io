@@ -24,3 +24,9 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   shortname: http-harshadjs-github-io
+
+exclude:
+  - Makefile
+  - LICENSE.md
+  - README.md
+  - package-lock.json
