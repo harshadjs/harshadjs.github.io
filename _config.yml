@@ -1,0 +1,26 @@
+# Setup
+title:               Harshad Shirwadkar
+tagline:             ''
+description:         'My corner of the web'
+url:                 https://harshad.me
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Harshad Shirwadkar
+  email:             harshadshirwadkar@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: G-5PQYPYQ8BS
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: http-harshadjs-github-io

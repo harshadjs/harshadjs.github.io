@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+      {% if page.categories contains "chords" %}
+      {% assign var content_split =  content | split:"<chords>" %}
+      {{content_split[0]}}
+      <script>
+        window.scroll_state = 0;
+        function autoscroll() {
+          if (window.scroll_state == 0) {
+            scroll = setInterval(function() { window.scrollBy(0, 1);
+            console.log('start');}, 100);
+            window.scroll_state = 1;
+           } else {
+            window.scroll_state = 0;
+            clearInterval(scroll);
+            console.log('stop');
+          }
+        }
+        function transpose(direction) {
+          var ele = document.getElementsByClassName('chords');
+          // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+          // C,C#, D,D#, E, F,F#, G,G#, A,A#, B
+          for(var i=0;i<ele.length;i++) {
+             var text  = ele[i].textContent;
+             if (direction == 1) {
+              text = text.replace(/C/g, "##");
+              text = text.replace(/D/g, "####");
+              text = text.replace(/E/g, "######");
+              text = text.replace(/F/g, "#######");
+              text = text.replace(/G/g, "#########");
+              text = text.replace(/A/g, "###########");
+              text = text.replace(/B/g, "#");
+             } else {
+              text = text.replace(/C/g, "############");
+              text = text.replace(/D/g, "##");
+              text = text.replace(/E/g, "####");
+              text = text.replace(/F/g, "#####");
+              text = text.replace(/G/g, "#######");
+              text = text.replace(/A/g, "#########");
+              text = text.replace(/B/g, "###########");
+             }
+             text = text.replace(/#############/g, "C");
+             text = text.replace(/############/g, "B");
+             text = text.replace(/###########/g, "AA");
+             text = text.replace(/##########/g, "A");
+             text = text.replace(/#########/g, "GG");
+             text = text.replace(/########/g, "G");
+             text = text.replace(/#######/g, "FF");
+             text = text.replace(/######/g, "F");
+             text = text.replace(/#####/g, "E");
+             text = text.replace(/####/g, "DD");
+             text = text.replace(/###/g, "D");
+             text = text.replace(/##/g, "CC");
+             text = text.replace(/#/g, "C");
+             text = text.replace(/AA/g, "A#");
+             text = text.replace(/GG/g, "G#");
+             text = text.replace(/FF/g, "F#");
+             text = text.replace(/DD/g, "D#");
+             text = text.replace(/CC/g, "C#");
+             ele[i].textContent = text;
+          }
+        }
+        function toggleMetronome() {
+          var iframe = document.getElementById("metronome");
+          if (iframe.style.display == "none")
+            iframe.style.display  = "block";
+          else
+            iframe.style.display  = "none";
+        }
+      </script>
+      <button onclick="autoscroll();">Autoscroll</button>
+      <button onclick="transpose(1);">+1</button>
+      <button onclick="transpose(0);">-1</button>
+      <button onclick="toggleMetronome();">Metronome</button>
+      <iframe id="metronome" src="https://guitarsix.com/metronome/" height="650" width="300" frameborder="0" style="display: none"></iframe>
+      <hr>
+      <pre class='highlight'>{{ content_split[1] | 
+        replace: "[", "<span class='chords'>" |
+        replace: "]", "</span>" |
+        replace: "<chords>", "<pre class='highlight'>" |
+        replace: "<ctag>", "<span class='ctag'>" |
+        replace: "</ctag>", "</span>" }}</pre>
+    {% else %}
+          {{ content }}
+    {% endif %}
+</div>
+
+
+{% if site.disqus.shortname %}
+  {% include disqus.html %}
+{% endif %}
