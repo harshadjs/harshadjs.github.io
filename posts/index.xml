@@ -1,17 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Posts on  </title>
-		<link>/posts/</link>
-		<description>Recent content in Posts </description>
-		<generator>Hugo -- gohugo.io</generator>
-		
-  		<language>en-us</language>
-		
-		<managingEditor>Page(/posts) (Harshad Shirwadkar)</managingEditor>
-    	
-  		<lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate>
-		
-		<atom:link href="/posts/" rel="self" type="application/rss+xml" />
-		
-	</channel>
+  <channel>
+    <title>Posts on harshads</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on harshads</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© 2025, hs</copyright>
+    <lastBuildDate>Fri, 23 Jan 2026 15:59:00 -0800</lastBuildDate>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Literate programming</title>
+      <link>/posts/literate-programming/</link>
+      <pubDate>Fri, 23 Jan 2026 15:59:00 -0800</pubDate>
+      <guid>/posts/literate-programming/</guid>
+      <description>&lt;p&gt;(From &lt;a href=&#34;https://en.wikipedia.org/wiki/Literate_programming#:~:text=Literate%20programming%20is%20a%20programming,source%20code%20can%20be%20generated&#34;&gt;wikipedia&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Literate programming is a programming paradigm introduced in 1984 by Donald&#xA;Knuth in which a computer program is given as an explanation of how it works in a natural language, such as English, interspersed (embedded) with snippets of macros and traditional source code, from which compilable source code can be generated.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;I think org mode makes the concept of literate programming a lot more tangible. Google colab or Jupyter notebooks is another simple way in which literate programming is made available.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Org Mode</title>
+      <link>/posts/org-mode/</link>
+      <pubDate>Fri, 23 Jan 2026 15:59:00 -0800</pubDate>
+      <guid>/posts/org-mode/</guid>
+      <description>&lt;p&gt;I use &lt;a href=&#34;https://orgmode.org/&#34;&gt;emacs org mode&lt;/a&gt;, for note taking, planning life, remembering random tidbits. This&#xA;digital garden is also generated using org mode. My emacs configuration has a section&#xA;dedicated for org mode.&lt;/p&gt;&#xA;&lt;h2 id=&#34;some-interesting-articles&#34;&gt;Some interesting articles&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Article that describes how to do org mode on android -&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://babbagefiles.xyz/org-roam-on-android/&#34;&gt;https://babbagefiles.xyz/org-roam-on-android/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;5 Org roam hacks - &lt;a href=&#34;https://www.youtube.com/watch?v=CUkuyW6hr18&amp;amp;t=2s&#34;&gt;https://www.youtube.com/watch?v=CUkuyW6hr18&amp;amp;t=2s&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Rehna Tu</title>
+      <link>/posts/rehna-tu/</link>
+      <pubDate>Fri, 23 Jan 2026 15:59:00 -0800</pubDate>
+      <guid>/posts/rehna-tu/</guid>
+      <description>&lt;p&gt;Rehna Tu is originally a song from movie Delhi 6. We interpreted it very differently and&#xA;here&amp;rsquo;s our take on it. AR Rahman&amp;rsquo;s is just amazing!&lt;/p&gt;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34;&#xA;src=&#34;https://www.youtube.com/embed/GZOUwWodx5Y&#34; frameborder=&#34;0&#34;&#xA;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope;&#xA;picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>Emacs on Android</title>
+      <link>/posts/emacs-on-android/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>/posts/emacs-on-android/</guid>
+      <description>&lt;p&gt;I have always wanted access to emacs, and especially org-mode on my android phone.&lt;/p&gt;&#xA;&lt;p&gt;This note describes my high level setup:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;orgzly for todo / agenda&lt;/li&gt;&#xA;&lt;li&gt;termux for notes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Orgzly does the job well, but doesn&amp;rsquo;t work well with org-roam. On the other&#xA;hand, termux is good for accessing notes. In termux, I have widgets like &lt;code&gt;open agenda&lt;/code&gt;, &lt;code&gt;org capture&lt;/code&gt;, &lt;code&gt;search org-roam notes&lt;/code&gt;, &lt;code&gt;sync with git&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;All my termux configuration is published at termux setup.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dil Mein Jaagi</title>
+      <link>/posts/dil_mein_jaagi/</link>
+      <pubDate>Tue, 28 Apr 2020 00:00:00 -0700</pubDate>
+      <guid>/posts/dil_mein_jaagi/</guid>
+      <description>&lt;p&gt;Dil mein jaagi is a beautiful composition by Amit Trivedi. Check out &lt;a href=&#34;https://www.youtube.com/watch?v=HIcXGb9xHTE&#34;&gt;the original song&#xA;here&lt;/a&gt;. However, it has been highly under noticed. My wife Rithisha (who is an &lt;a href=&#34;https://www.youtube.com/user/rithishapadmanabh&#34;&gt;amazing&#xA;singer&lt;/a&gt;() btw) and I decided to give this song a shot. What started as just a jam back in&#xA;2016 summer, ended up becoming a full fledged performance. All thanks to Rithisha, Shardul,&#xA;Rucha and Vaishnavh for their amazing contributions. Special thanks to Google for providing&#xA;a place to practice and record without which this wouldn&amp;rsquo;t have been possible. This one of&#xA;my favorite #music covers!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>/posts/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/about/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;/ox-hugo/profile.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Hi! I&amp;rsquo;m Harshad. I live in the beautiful city of Seattle and work for Google.  As a part of&#xA;my work and as a hobby, I contribute to the development of upstream Linux kernel. Here are&#xA;the &lt;a href=&#34;https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&amp;amp;q=harshads&#34;&gt;patches&lt;/a&gt; that I have contributed to the Linux Kernel.  I also like to play piano. Please&#xA;check my &lt;a href=&#34;/music&#34;&gt;music&lt;/a&gt; page for my collaborations with other musicians.&lt;/p&gt;&#xA;&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;&#xA;&lt;h4 id=&#34;fastcommit-resource-efficient-performant-and-cost-effective-file-system-journaling&#34;&gt;&lt;a href=&#34;https://www.usenix.org/conference/atc24/presentation/shirwadkar&#34;&gt;FastCommit: resource-efficient, performant and cost-effective file system journaling&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;&lt;em&gt;ATC 2024 (&lt;strong&gt;Awarded Best Paper&lt;/strong&gt;)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>/posts/music/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/music/</guid>
+      <description>&lt;p&gt;Over the years I&amp;rsquo;ve had the privilege of collaborating with some very talented&#xA;musicians. Here are some of the collaborations and also a few individual&#xA;recordings.&lt;/p&gt;&#xA;&lt;h2 id=&#34;collaborations&#34;&gt;Collaborations&lt;/h2&gt;&#xA;&lt;span&gt;&#xA;&lt;iframe width=&#34;300&#34; height=&#34;300&#34; src=&#34;https://www.youtube.com/embed/_qwZ-LNXlq0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;iframe width=&#34;300&#34; height=&#34;300&#34; src=&#34;https://www.youtube.com/embed/UAvCCR2DVdI&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;iframe width=&#34;300&#34; height=&#34;300&#34; src=&#34;https://www.youtube.com/embed/xnP41fUJyRY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;iframe width=&#34;300&#34; height=&#34;300&#34; src=&#34;https://www.youtube.com/embed/OpmxWJI6i5w&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;iframe width=&#34;300&#34; height=&#34;300&#34; src=&#34;https://www.youtube.com/embed/GZOUwWodx5Y&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;iframe width=&#34;300&#34; height=&#34;300&#34; src=&#34;https://www.youtube.com/embed/1_w7cPBjfUg&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;/span&gt;&#xA;&lt;hr&gt;&#xA;&lt;iframe width=&#34;40%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; allow=&#34;autoplay&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/292146457&amp;color=%23c8cbc7&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;&gt;&lt;/iframe&gt;&#xA;&lt;iframe width=&#34;40%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; allow=&#34;autoplay&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155355031&amp;color=%23042235&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;&gt;&lt;/iframe&gt;&#xA;&lt;iframe width=&#34;40%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; allow=&#34;autoplay&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/199450222&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;&gt;&lt;/iframe&gt;&#xA;&lt;iframe width=&#34;40%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; allow=&#34;autoplay&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/56123049&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;&gt;&lt;/iframe&gt;&#xA;&lt;hr&gt;&#xA;&lt;iframe src=&#34;https://www.facebook.com/plugins/video.php?height=314&amp;href=https%3A%2F%2Fwww.facebook.com%2Frithisha.padmanabh%2Fvideos%2F10220045252709019%2F&amp;show_text=false&amp;width=560&#34; width=&#34;300&#34; height=&#34;150&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowTransparency=&#34;true&#34; allow=&#34;encrypted-media&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;&#xA;&lt;iframe src=&#34;https://www.facebook.com/plugins/video.php?height=314&amp;href=https%3A%2F%2Fwww.facebook.com%2Frithisha.padmanabh%2Fvideos%2F10219890686564962%2F&amp;show_text=false&amp;width=560&#34; width=&#34;300&#34; height=&#34;150&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowTransparency=&#34;true&#34; allow=&#34;encrypted-media&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;&#xA;&lt;br&gt;&lt;a href=https://www.instagram.com/tv/B8xluZdppPN/?igshid=1wz550v3uxzpn&gt;Dream A Little Dream Of Me Cover on Instagram&lt;/a&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;instrumentals&#34;&gt;Instrumentals&lt;/h2&gt;&#xA;&lt;iframe width=&#34;40%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; allow=&#34;autoplay&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259287069&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;&gt;&lt;/iframe&gt;&#xA;&lt;iframe width=&#34;40%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; allow=&#34;autoplay&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330497950&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;&gt;&lt;/iframe&gt;&#xA;&lt;iframe width=&#34;40%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; allow=&#34;autoplay&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/105853424&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;&gt;&lt;/iframe&gt;&#xA;&lt;iframe width=&#34;40%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; allow=&#34;autoplay&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/56077490&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
+    <item>
+      <title>Writing Music Chords</title>
+      <link>/posts/music-chords/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/posts/music-chords/</guid>
+      <description>&lt;p&gt;I often struggled to keep chords for songs I played in a handy place. For a couple of years&#xA;I have been maintaining chords in a Google Doc. Given the forgetful person that I&amp;rsquo;m, storing&#xA;all the chords in one place has come as a blessing. Having all the chords in one place has&#xA;helped me to be more organized about my . It has helped me collaborate better with&#xA;other musicians.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

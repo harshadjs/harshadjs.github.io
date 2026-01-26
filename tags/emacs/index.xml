@@ -1,17 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Emacs on  </title>
-		<link>/tags/emacs/</link>
-		<description>Recent content in Emacs </description>
-		<generator>Hugo -- gohugo.io</generator>
-		
-  		<language>en-us</language>
-		
-		<managingEditor>Page(/tags/emacs) (Harshad Shirwadkar)</managingEditor>
-    	
-  		<lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate>
-		
-		<atom:link href="/tags/emacs/" rel="self" type="application/rss+xml" />
-		
-	</channel>
+  <channel>
+    <title>Emacs on harshads</title>
+    <link>/tags/emacs/</link>
+    <description>Recent content in Emacs on harshads</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© 2025, hs</copyright>
+    <lastBuildDate>Fri, 23 Jan 2026 15:59:00 -0800</lastBuildDate>
+    <atom:link href="/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Org Mode</title>
+      <link>/posts/org-mode/</link>
+      <pubDate>Fri, 23 Jan 2026 15:59:00 -0800</pubDate>
+      <guid>/posts/org-mode/</guid>
+      <description>&lt;p&gt;I use &lt;a href=&#34;https://orgmode.org/&#34;&gt;emacs org mode&lt;/a&gt;, for note taking, planning life, remembering random tidbits. This&#xA;digital garden is also generated using org mode. My emacs configuration has a section&#xA;dedicated for org mode.&lt;/p&gt;&#xA;&lt;h2 id=&#34;some-interesting-articles&#34;&gt;Some interesting articles&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Article that describes how to do org mode on android -&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://babbagefiles.xyz/org-roam-on-android/&#34;&gt;https://babbagefiles.xyz/org-roam-on-android/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;5 Org roam hacks - &lt;a href=&#34;https://www.youtube.com/watch?v=CUkuyW6hr18&amp;amp;t=2s&#34;&gt;https://www.youtube.com/watch?v=CUkuyW6hr18&amp;amp;t=2s&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
 </rss>
