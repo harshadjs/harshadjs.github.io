@@ -4,10 +4,10 @@
 #+DESCRIPTION: Software engineer
 
 * posts
-** Hello orgverse!
+** 2026-01-27T09:41:13-0800
 :PROPERTIES:
 :TAGS:
-:ID: 2026-01-27T09:41:13-0800
 :CLIENT: org-social.el
 :MOOD:
 :END:
+Hello org-social! This is my test post, and excited to be here! :)
