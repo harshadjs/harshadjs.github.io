@@ -1,0 +1,361 @@
+:PROPERTIES:
+:ID:       a73d3c63-eb1e-4929-839e-04b7d014fea0
+:END:
+#+title: harshad's log
+#+nick: harshads
+#+description: This is my log
+#+hugo_base_dir: ~/base/sites/me/
+#+hugo_paired_shortcodes: rawhtml
+
+* posts
+
+** About
+:PROPERTIES:
+:EXPORT_FILE_NAME: about
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :type main
+:EXPORT_OPTIONS: author:nil
+:END:
+
+[[file:./data/profile.png]]
+
+Hi! I'm Harshad. I live in the beautiful city of Seattle and work for Google. As a part of my work and as a hobby, I contribute to the development of upstream Linux kernel. Here are the [[https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?qt=author&q=harshads][patches]] that I have contributed to the Linux Kernel.  I also like to play piano. Please check my [[/music][music]] page for my collaborations with other musicians.
+
+#+begin_details
+#+begin_summary
+This is summary.
+#+end_summary
+Here are the details.
+#+end_details
+
+*** Publications
+***** [[https://www.usenix.org/conference/atc24/presentation/shirwadkar][FastCommit: resource-efficient, performant and cost-effective file system journaling]]
+
+/ATC 2024 (*Awarded Best Paper*)/
+
+_Harshad Shirwadkar_, Saurabh Kadekodi, Theodore Ts'o
+
+***** [[https://dl.acm.org/doi/abs/10.1145/3477132.3483567][WineFS: a hugepage-aware file system for persistent memory that ages gracefully]]
+
+/SOSP 2021/
+
+Rohan Kadekodi, Saurabh Kadekodi, Soujanya Ponnapalli, _Harshad Shirwadkar_, Gregory R. Ganger, Aasheesh Kolli, Vijay Chidambaram
+
+** Music
+:PROPERTIES:
+:EXPORT_FILE_NAME: music
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :type main
+:END:
+
+Over the years I've had the privilege of collaborating with some very talented
+musicians. Here are some of the collaborations and also a few individual
+recordings.
+
+*** Collaborations
+
+#+begin_export html
+<span>
+<iframe width="300" height="300" src="https://www.youtube.com/embed/_qwZ-LNXlq0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="300" src="https://www.youtube.com/embed/UAvCCR2DVdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="300" src="https://www.youtube.com/embed/xnP41fUJyRY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="300" src="https://www.youtube.com/embed/OpmxWJI6i5w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="300" src="https://www.youtube.com/embed/GZOUwWodx5Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="300" src="https://www.youtube.com/embed/1_w7cPBjfUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</span>
+
+---
+<iframe width="40%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/292146457&color=%23c8cbc7&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+<iframe width="40%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/155355031&color=%23042235&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+<iframe width="40%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/199450222&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+<iframe width="40%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/56123049&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+<hr>
+<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Frithisha.padmanabh%2Fvideos%2F10220045252709019%2F&show_text=false&width=560" width="300" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+
+<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Frithisha.padmanabh%2Fvideos%2F10219890686564962%2F&show_text=false&width=560" width="300" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+<br><a href=https://www.instagram.com/tv/B8xluZdppPN/?igshid=1wz550v3uxzpn>Dream A Little Dream Of Me Cover on Instagram</a>
+<hr>
+#+end_export
+
+*** Instrumentals
+
+#+begin_export html
+<iframe width="40%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259287069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+<iframe width="40%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/330497950&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+<iframe width="40%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/105853424&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+<iframe width="40%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/56077490&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+#+end_export
+
+** Dil Mein Jaagi
+CLOSED: [2020-04-28 Tue]
+:PROPERTIES:
+:EXPORT_FILE_NAME: dil_mein_jaagi
+:END:
+
+Dil mein jaagi is a beautiful composition by Amit Trivedi. Check out [[https://www.youtube.com/watch?v=HIcXGb9xHTE][the original song
+here]]. However, it has been highly under noticed. My wife Rithisha (who is an [[https://www.youtube.com/user/rithishapadmanabh][amazing
+singer]]() btw) and I decided to give this song a shot. What started as just a jam back in
+2016 summer, ended up becoming a full fledged performance. All thanks to Rithisha, Shardul,
+Rucha and Vaishnavh for their amazing contributions. Special thanks to Google for providing
+a place to practice and record without which this wouldn't have been possible. This one of
+my favorite #music covers!
+
+
+#+begin_export html
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/OpmxWJI6i5w" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+** Emacs on Android
+CLOSED: <2024-08-29 Thu>
+:PROPERTIES:
+:EXPORT_FILE_NAME: emacs-on-android
+:END:
+:LOGBOOK:
+- CLOSING NOTE [2026-01-23 Fri 15:52]
+:END:
+I have always wanted access to emacs, and especially org-mode on my android phone.
+
+This note describes my high level setup:
+- orgzly for todo / agenda
+- termux for notes
+
+Orgzly does the job well, but doesn't work well with org-roam. On the other
+hand, termux is good for accessing notes. In termux, I have widgets like =open
+agenda=, =org capture=, =search org-roam notes=, =sync with git=.
+
+All my termux configuration is published at termux setup.
+
+** TODO Literate Notes
+:PROPERTIES:
+:EXPORT_FILE_NAME: literate-programming
+:END:
+:LOGBOOK:
+- CLOSING NOTE [2026-01-23 Fri 15:59]
+:END:
+(From [[https://en.wikipedia.org/wiki/Literate_programming#:~:text=Literate%20programming%20is%20a%20programming,source%20code%20can%20be%20generated][wikipedia]])
+#+begin_quote
+Literate programming is a programming paradigm introduced in 1984 by Donald
+Knuth in which a computer program is given as an explanation of how it works in a natural language, such as English, interspersed (embedded) with snippets of macros and traditional source code, from which compilable source code can be generated.
+#+end_quote
+
+As a software engineer by profession, I end up taking a lot of tech notes. These notes often encompass text describing the problem and the solution, interspersed with code snippets that show an example of source code.
+
+These notes often include stuff like how to set up something, what commands to run in terminal to achieve some desired output and so on. 
+
+
+** Rehna Tu
+CLOSED: [2026-01-23 Fri 15:59]
+:PROPERTIES:
+:EXPORT_FILE_NAME: rehna-tu
+:END:
+:LOGBOOK:
+- CLOSING NOTE [2026-01-23 Fri 15:59]
+:END:
+Rehna Tu is originally a song from movie Delhi 6. We interpreted it very differently and
+here's our take on it. AR Rahman's [[id:EA8A4890-A4D1-40E4-82EC-C76BCC87DCA2][music]] is just amazing!
+
+
+#+begin_export html
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/GZOUwWodx5Y" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+** Org Mode :emacs:
+CLOSED: [2026-01-23 Fri 15:59]
+:PROPERTIES:
+:EXPORT_FILE_NAME: org-mode
+:END:
+:LOGBOOK:
+- CLOSING NOTE [2026-01-23 Fri 15:59]
+:END:
+I use [[https://orgmode.org/][emacs org mode]], for note taking, planning life, remembering random tidbits.
+
+*** Some interesting articles
+
+- Article that describes how to do org mode on android -
+https://babbagefiles.xyz/org-roam-on-android/
+- 5 Org roam hacks - https://www.youtube.com/watch?v=CUkuyW6hr18&t=2s
+
+** Writing Music Chords
+:PROPERTIES:
+:EXPORT_FILE_NAME: music-chords
+:END:
+:LOGBOOK:
+- CLOSING NOTE [2026-01-23 Fri 17:54]
+:END:
+I often struggled to keep chords for songs I played in a handy place. For a couple of years
+I have been maintaining chords in a Google Doc. Given the forgetful person that I'm, storing
+all the chords in one place has come as a blessing. Having all the chords in one place has
+helped me to be more organized about my [[id:EA8A4890-A4D1-40E4-82EC-C76BCC87DCA2][music]]. It has helped me collaborate better with
+other musicians.
+
+However, using Google Docs for organizing chords has not since scaled as I added more and
+more songs. Besides, I was maintaining all the chords in one file. Maybe having individual
+files would have helped the cause but it was nowhere close to what for example
+[[https://tabs.ultimate-guitar.com/tab/bryan-adams/summer-of-69-chords-843137][UltimateGuitar provides]].
+
+I have since migrated all the chords from the google doc onto my personal website where I
+write song chords in plain text format (in org-mode files) and using Hugo's magic shortcodes
+to detect chords and present them in a way such that it is easy to follow.
+
+This has worked wonders for me and this post is meant to give a high level idea of how you
+can use =Hugo= shortcodes, to organize and present chords for your songs!
+
+*** Hugo Short Code for Chords
+
+I defined a new short code called =chords= to define the section of a post where
+song chords are found. What this shortcodee does is that it recognizes all the
+chords in its content using the following regular expression:
+
+#+BEGIN_SRC
+[A-G][b#]?((b|maj|add|m|sus|dim|aug)*[0-9]*)*[^\\w]
+#+END_SRC
+
+*** Marking Chords in Markdown
+
+I defined a new =<chords>= tag (note that this is not a HTML tag) as a way to indicate that
+all the content following this tag should be rendered as chords. This is ugly but it works
+for my usecase. Chords marker makes Liquid templating language use a =<pre>= with a CSS class
+for all the content that follows. As you will see in the following section, it's **critical**
+that you use monospace font for rendering this =<pre>=formatted text in order to maintain
+the mapping of where chords change according to lyrics.
+
+#+BEGIN_SRC
+<chords>
+   I got my first real six-string,   Bought it at the five-and-dime
+#+END_SRC
+
+The next step is to write chords for the songs. I first place chords just above the lyrics
+where the chords change and then annotate (and differentiate) chords (from lyrics) by
+placing them in square brackets.  Square brackets encountered after =<chords>= tag tell Liquid
+templating language that these are chords and should have a special css style assigned to
+it.
+
+#+BEGIN_SRC
+<chords>
+[D                                  A]
+   I got my first real six-string,   Bought it at the five-and-dime
+#+END_SRC
+
+Song sections (such as chorus, verse, prechorus) in the song use
+=<ctag></ctag>= tag.
+#+BEGIN_SRC
+[D                              A]
+   Jimmy quit, Joey got married,   I shoulda known we'd never get far
+
+<ctag>Chorus</ctag>
+[Bm             A              D                        G]
+    Oh, when I look back now,    That summer seemed to last forever
+#+END_SRC
+
+*** Liquid Templating to Render Chords
+
+I then have following code in my layout file that renders chords.
+
+*Note: In order to not confuse Liquid Templating used for this post, I
+have left spaces between ={=, =}= and =%= characters.*
+
+#+BEGIN_SRC
+    { % if page.categories contains "chords" % }
+      { % assign var content_split =  content | split:"<chords>" % }
+      { { content_split[0] } }
+      <pre class='highlight'>{ { content_split[1] |
+        replace: "[", "<span class='chords'>" |
+        replace: "]", "</span>" |
+        replace: "<chords>", "<pre class='highlight'>" |
+        replace: "<ctag>", "<span class='ctag'>" |
+        replace: "</ctag>", "</span>" } }</pre>
+    { % else % }
+      { { content } }
+    { % endif % }
+#+END_SRC
+
+*** JS Tricks
+
+I also have added a few Javascript tricks to implement some interesting functions such as
+=Transpose= and =Auto-scroll= which I first found on UltimateGuitar. These functions come very
+handy! For those who are interested here's how the JS code for each look like. Just place
+these in the appropriate location (right before the ={ { content_split[0] } }= line) in the
+above template.
+
+**** Auto-scroll
+
+#+BEGIN_SRC
+        window.scroll_state = 0;
+        function autoscroll() {
+          if (window.scroll_state == 0) {
+            scroll = setInterval(function() { window.scrollBy(0, 1);
+            console.log('start');}, 100);
+            window.scroll_state = 1;
+           } else {
+            window.scroll_state = 0;
+            clearInterval(scroll);
+            console.log('stop');
+          }
+        }
+	<button onclick="autoscroll();">Autoscroll</button>
+#+END_SRC
+
+**** Transpose
+
+#+BEGIN_SRC
+        function transpose(direction) {
+          var ele = document.getElementsByClassName('chords');
+          // 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+          // C,C#, D,D#, E, F,F#, G,G#, A,A#, B
+          for(var i=0;i<ele.length;i++) {
+             var text  = ele[i].textContent;
+             if (direction == 1) {
+              text = text.replace(/C/g, "##");
+              text = text.replace(/D/g, "####");
+              text = text.replace(/E/g, "######");
+              text = text.replace(/F/g, "#######");
+              text = text.replace(/G/g, "#########");
+              text = text.replace(/A/g, "###########");
+              text = text.replace(/B/g, "#");
+             } else {
+              text = text.replace(/C/g, "############");
+              text = text.replace(/D/g, "##");
+              text = text.replace(/E/g, "####");
+              text = text.replace(/F/g, "#####");
+              text = text.replace(/G/g, "#######");
+              text = text.replace(/A/g, "#########");
+              text = text.replace(/B/g, "###########");
+             }
+             text = text.replace(/#############/g, "C");
+             text = text.replace(/############/g, "B");
+             text = text.replace(/###########/g, "AA");
+             text = text.replace(/##########/g, "A");
+             text = text.replace(/#########/g, "GG");
+             text = text.replace(/########/g, "G");
+             text = text.replace(/#######/g, "FF");
+             text = text.replace(/######/g, "F");
+             text = text.replace(/#####/g, "E");
+             text = text.replace(/####/g, "DD");
+             text = text.replace(/###/g, "D");
+             text = text.replace(/##/g, "CC");
+             text = text.replace(/#/g, "C");
+             text = text.replace(/AA/g, "A#");
+             text = text.replace(/GG/g, "G#");
+             text = text.replace(/FF/g, "F#");
+             text = text.replace(/DD/g, "D#");
+             text = text.replace(/CC/g, "C#");
+             ele[i].textContent = text;
+          }
+        }
+      <button onclick="transpose(1);">+1</button>
+      <button onclick="transpose(0);">-1</button>
+#+END_SRC
+
+Have fun adding chords to your blog!
+
