@@ -11,3 +11,18 @@
 :MOOD:
 :END:
 Hello org-social! This is my test post, and excited to be here! :)
+
+** 2026-01-30T16:20:47-0800
+:PROPERTIES:
+:TAGS:
+:CLIENT: org-social.el
+:REPLY_TO: https://host.org-social.org/andros/social.org#2026-01-29T08:18:43+0100
+:MOOD:
+:END:
+Hello [[https://host.org-social.org/andros/social.org][andros@]], I'm a software engineer who likes to work on low level systems
+stuff. I'm yet another Emacs / org mode fan!
+
+I'm currently tinkering with getting Emacs / Org Mode setup working on my
+android phone with termux and Orgzly. And so far I'm happy with the result! The
+basic design is that: 1) everything is backed by git 2) termux acts as a
+synchronizing mechanism 3) Orgzly (revived) acts as a front end.
